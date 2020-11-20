@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_LifeCharger,,,,2020-11-13 10:37:17,2020-11-13 10:37:20,"2,753s",FAILED
+,,,,,,,
+Test Cases/TC_LifeCharger,,This TC aims to test lifecharger website,,2020-11-13 10:37:18,2020-11-13 10:37:19,"1,741s",FAILED
+"openBrowser(""https://lifecharger.org"")",,,,2020-11-13 10:37:18,2020-11-13 10:37:19,"1,454s",FAILED
+,,,,,,,
+Test Cases/TC_LifeCharger,,This TC aims to test lifecharger website,,2020-11-13 10:37:20,2020-11-13 10:37:20,"0,715s",FAILED
+"openBrowser(""https://lifecharger.org"")",,,,2020-11-13 10:37:20,2020-11-13 10:37:20,"0,684s",FAILED

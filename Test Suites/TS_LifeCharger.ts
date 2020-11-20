@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_LifeCharger</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>abebef92-8fee-4fa8-b906-d55267998eb7</testSuiteGuid>
+   <testCaseLink>
+      <guid>1ea4b5da-cbd9-49ab-ac0a-c97fed20a7d9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_LifeCharger</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9d3e4fbb-64b3-4b24-bbf0-cc25eafd2363</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/myData/testData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>9d3e4fbb-64b3-4b24-bbf0-cc25eafd2363</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>1e1e195e-2dba-4f8a-9a79-6460ec9e3fb1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9d3e4fbb-64b3-4b24-bbf0-cc25eafd2363</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>8b4baaa7-3c56-4622-a1b9-55e2a5e7aa73</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

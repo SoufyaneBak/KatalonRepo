@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_LifeCharger,Chrome 86.0.4240.198,,,2020-11-12 19:23:57,2020-11-12 19:24:21,"23,331s",PASSED
+,,,,,,,
+Test Cases/TC_LifeCharger,Chrome 86.0.4240.198,This TC aims to test lifecharger website,,2020-11-12 19:23:58,2020-11-12 19:24:12,"14,110s",PASSED
+"openBrowser(""https://lifecharger.org"")",Chrome 86.0.4240.198,,,2020-11-12 19:23:58,2020-11-12 19:24:07,"9,103s",PASSED
+"click(findTestObject(""Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this""))",Chrome 86.0.4240.198,,,2020-11-12 19:24:07,2020-11-12 19:24:09,"2,233s",PASSED
+"setText(findTestObject(""Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/input_Search for_s""), username)",Chrome 86.0.4240.198,,,2020-11-12 19:24:09,2020-11-12 19:24:11,"1,567s",PASSED
+"click(findTestObject(""Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/button_Search for_search-submit""))",Chrome 86.0.4240.198,,,2020-11-12 19:24:11,2020-11-12 19:24:11,"0,001s",NOT_RUN
+"verifyElementPresent(findTestObject(""Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/a_Home""), 0)",Chrome 86.0.4240.198,,,2020-11-12 19:24:11,2020-11-12 19:24:11,"0,311s",PASSED
+"setText(findTestObject(""Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/input_Search for_s""), password)",Chrome 86.0.4240.198,,,2020-11-12 19:24:11,2020-11-12 19:24:12,"0,538s",PASSED
+closeBrowser(),Chrome 86.0.4240.198,,,2020-11-12 19:24:12,2020-11-12 19:24:12,"0,113s",PASSED
+,,,,,,,
+Test Cases/TC_LifeCharger,Chrome 86.0.4240.198,This TC aims to test lifecharger website,,2020-11-12 19:24:12,2020-11-12 19:24:21,"8,912s",PASSED
+"openBrowser(""https://lifecharger.org"")",Chrome 86.0.4240.198,,,2020-11-12 19:24:12,2020-11-12 19:24:16,"3,726s",PASSED
+"click(findTestObject(""Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this""))",Chrome 86.0.4240.198,,,2020-11-12 19:24:16,2020-11-12 19:24:18,"2,862s",PASSED
+"setText(findTestObject(""Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/input_Search for_s""), username)",Chrome 86.0.4240.198,,,2020-11-12 19:24:18,2020-11-12 19:24:20,"1,411s",PASSED
+"click(findTestObject(""Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/button_Search for_search-submit""))",Chrome 86.0.4240.198,,,2020-11-12 19:24:20,2020-11-12 19:24:20,"0,001s",NOT_RUN
+"verifyElementPresent(findTestObject(""Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/a_Home""), 0)",Chrome 86.0.4240.198,,,2020-11-12 19:24:20,2020-11-12 19:24:20,"0,264s",PASSED
+"setText(findTestObject(""Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/input_Search for_s""), password)",Chrome 86.0.4240.198,,,2020-11-12 19:24:20,2020-11-12 19:24:21,"0,530s",PASSED
+closeBrowser(),Chrome 86.0.4240.198,,,2020-11-12 19:24:21,2020-11-12 19:24:21,"0,107s",PASSED

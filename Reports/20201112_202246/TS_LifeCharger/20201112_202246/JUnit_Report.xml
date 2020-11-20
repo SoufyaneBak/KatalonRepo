@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_LifeCharger" time="19.673" tests="2" failures="0" errors="2">
+   <testsuite name="TS_LifeCharger" tests="2" failures="0" errors="2" time="19.673" timestamp="2020-11-12 20:22:51" hostname="pro - mbp-de-pro" id="Test Suites/TS_LifeCharger">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pro/Sou/KatalonStudioProjects/TutoKatalon/Reports/20201112_202246/TS_LifeCharger/20201112_202246"/>
+         <property name="logFiles" value="/Users/pro/Sou/KatalonStudioProjects/TutoKatalon/Reports/20201112_202246/TS_LifeCharger/20201112_202246/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pro - mbp-de-pro"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Chrome 86.0.4240.198"/>
+         <property name="hostAddress" value="192.168.1.37"/>
+         <property name="sessionId" value="7522858fd6b1a7f0fc9caf369fb8ddf0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC_LifeCharger" time="10.022" classname="Test Cases/TC_LifeCharger" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC_LifeCharger FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/testData' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/testData' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_LifeCharger.run(TC_LifeCharger:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605208966572.run(TempTestSuite1605208966572.groovy:39)
+"/>
+         <system-out><![CDATA[2020-11-12 20:22:51 - [TEST_CASE][ERROR] - Test Cases/TC_LifeCharger: Test Cases/TC_LifeCharger FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/testData' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/testData' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_LifeCharger.run(TC_LifeCharger:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605208966572.run(TempTestSuite1605208966572.groovy:39)
+
+
+2020-11-12 20:22:51 - [TEST_STEP][PASSED] - openBrowser("https://lifecharger.org"): Browser is opened with url: 'https://lifecharger.org'
+
+2020-11-12 20:22:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-11-12 20:22:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-12 20:22:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://lifecharger.org'
+
+2020-11-12 20:22:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this")): Object: 'Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this' is clicked on
+
+2020-11-12 20:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this' is clicked on
+
+2020-11-12 20:23:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/input_Search for_s"), findTestData("testData").getValue(1, 1)): null]]></system-out>
+         <system-err><![CDATA[2020-11-12 20:22:51 - [TEST_CASE][ERROR] - Test Cases/TC_LifeCharger: Test Cases/TC_LifeCharger FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/testData' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/testData' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_LifeCharger.run(TC_LifeCharger:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605208966572.run(TempTestSuite1605208966572.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_LifeCharger" time="9.099" classname="Test Cases/TC_LifeCharger" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC_LifeCharger FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/testData' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/testData' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_LifeCharger.run(TC_LifeCharger:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605208966572.run(TempTestSuite1605208966572.groovy:39)
+"/>
+         <system-out><![CDATA[2020-11-12 20:23:01 - [TEST_CASE][ERROR] - Test Cases/TC_LifeCharger: Test Cases/TC_LifeCharger FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/testData' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/testData' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_LifeCharger.run(TC_LifeCharger:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605208966572.run(TempTestSuite1605208966572.groovy:39)
+
+
+2020-11-12 20:23:01 - [TEST_STEP][PASSED] - openBrowser("https://lifecharger.org"): Browser is opened with url: 'https://lifecharger.org'
+
+2020-11-12 20:23:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-11-12 20:23:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-11-12 20:23:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-12 20:23:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://lifecharger.org'
+
+2020-11-12 20:23:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this")): Object: 'Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this' is clicked on
+
+2020-11-12 20:23:10 - [MESSAGE][PASSED] - Object: 'Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this' is clicked on
+
+2020-11-12 20:23:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/input_Search for_s"), findTestData("testData").getValue(1, 1)): null]]></system-out>
+         <system-err><![CDATA[2020-11-12 20:23:01 - [TEST_CASE][ERROR] - Test Cases/TC_LifeCharger: Test Cases/TC_LifeCharger FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/testData' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/testData' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_LifeCharger.run(TC_LifeCharger:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605208966572.run(TempTestSuite1605208966572.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-12 20:22:51 - [TEST_SUITE][ERROR] - TS_LifeCharger: Test Cases/TC_LifeCharger FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/testData' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/testData' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_LifeCharger.run(TC_LifeCharger:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605208966572.run(TempTestSuite1605208966572.groovy:39)]]></system-out>
+      <system-err><![CDATA[2020-11-12 20:22:51 - [TEST_SUITE][ERROR] - TS_LifeCharger: Test Cases/TC_LifeCharger FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/testData' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/testData' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_LifeCharger.run(TC_LifeCharger:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605208966572.run(TempTestSuite1605208966572.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

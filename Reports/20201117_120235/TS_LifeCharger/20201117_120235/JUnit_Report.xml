@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_LifeCharger" time="0.986" tests="2" failures="0" errors="2">
+   <testsuite name="TS_LifeCharger" tests="2" failures="0" errors="2" time="0.986" timestamp="2020-11-17 12:02:39" hostname="pro - mbp-de-pro" id="Test Suites/TS_LifeCharger">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pro/Sou/KatalonStudioProjects/TutoKatalon/Reports/20201117_120235/TS_LifeCharger/20201117_120235"/>
+         <property name="logFiles" value="/Users/pro/Sou/KatalonStudioProjects/TutoKatalon/Reports/20201117_120235/TS_LifeCharger/20201117_120235/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pro - mbp-de-pro"/>
+         <property name="hostAddress" value="192.168.1.37"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+      </properties>
+      <testcase name="Test Cases/TC_LifeCharger" time="0.237" classname="Test Cases/TC_LifeCharger" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC_LifeCharger FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/pro/Sou/KatalonStudioProjects/TutoKatalon/Scripts/TC_LifeCharger/Script1605004329676.groovy: 12: unable to resolve class com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords
+ @ line 12, column 1.
+   import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605610955048.run(TempTestSuite1605610955048.groovy:36)
+"/>
+         <system-out><![CDATA[2020-11-17 12:02:39 - [TEST_CASE][ERROR] - Test Cases/TC_LifeCharger: Test Cases/TC_LifeCharger FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/pro/Sou/KatalonStudioProjects/TutoKatalon/Scripts/TC_LifeCharger/Script1605004329676.groovy: 12: unable to resolve class com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords
+ @ line 12, column 1.
+   import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605610955048.run(TempTestSuite1605610955048.groovy:36)]]></system-out>
+         <system-err><![CDATA[2020-11-17 12:02:39 - [TEST_CASE][ERROR] - Test Cases/TC_LifeCharger: Test Cases/TC_LifeCharger FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/pro/Sou/KatalonStudioProjects/TutoKatalon/Scripts/TC_LifeCharger/Script1605004329676.groovy: 12: unable to resolve class com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords
+ @ line 12, column 1.
+   import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605610955048.run(TempTestSuite1605610955048.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_LifeCharger" time="0.129" classname="Test Cases/TC_LifeCharger" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC_LifeCharger FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/pro/Sou/KatalonStudioProjects/TutoKatalon/Scripts/TC_LifeCharger/Script1605004329676.groovy: 12: unable to resolve class com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords
+ @ line 12, column 1.
+   import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605610955048.run(TempTestSuite1605610955048.groovy:36)
+"/>
+         <system-out><![CDATA[2020-11-17 12:02:40 - [TEST_CASE][ERROR] - Test Cases/TC_LifeCharger: Test Cases/TC_LifeCharger FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/pro/Sou/KatalonStudioProjects/TutoKatalon/Scripts/TC_LifeCharger/Script1605004329676.groovy: 12: unable to resolve class com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords
+ @ line 12, column 1.
+   import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605610955048.run(TempTestSuite1605610955048.groovy:36)]]></system-out>
+         <system-err><![CDATA[2020-11-17 12:02:40 - [TEST_CASE][ERROR] - Test Cases/TC_LifeCharger: Test Cases/TC_LifeCharger FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/pro/Sou/KatalonStudioProjects/TutoKatalon/Scripts/TC_LifeCharger/Script1605004329676.groovy: 12: unable to resolve class com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords
+ @ line 12, column 1.
+   import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605610955048.run(TempTestSuite1605610955048.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-17 12:02:39 - [TEST_SUITE][ERROR] - TS_LifeCharger: Test Cases/TC_LifeCharger FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/pro/Sou/KatalonStudioProjects/TutoKatalon/Scripts/TC_LifeCharger/Script1605004329676.groovy: 12: unable to resolve class com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords
+ @ line 12, column 1.
+   import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605610955048.run(TempTestSuite1605610955048.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-11-17 12:02:39 - [TEST_SUITE][ERROR] - TS_LifeCharger: Test Cases/TC_LifeCharger FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/pro/Sou/KatalonStudioProjects/TutoKatalon/Scripts/TC_LifeCharger/Script1605004329676.groovy: 12: unable to resolve class com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords
+ @ line 12, column 1.
+   import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1605610955048.run(TempTestSuite1605610955048.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

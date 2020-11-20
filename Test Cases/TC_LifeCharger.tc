@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This TC aims to test lifecharger website</description>
+   <name>TC_LifeCharger</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dceadd7a-a5e9-4866-8e98-a200c55c5fb6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null)</defaultValue>
+      <description></description>
+      <id>1e1e195e-2dba-4f8a-9a79-6460ec9e3fb1</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null)</defaultValue>
+      <description></description>
+      <id>8b4baaa7-3c56-4622-a1b9-55e2a5e7aa73</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

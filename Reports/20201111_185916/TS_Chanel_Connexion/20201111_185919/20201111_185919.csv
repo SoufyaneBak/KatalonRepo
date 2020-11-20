@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Chanel_Connexion,Chrome 86.0.4240.193,,,2020-11-11 18:59:28,2020-11-11 18:59:50,"22,067s",FAILED
+,,,,,,,
+Test Cases/TC_Chanel_Connexion,Chrome 86.0.4240.193,,,2020-11-11 18:59:28,2020-11-11 18:59:50,"21,865s",FAILED
+"openBrowser("""")",Chrome 86.0.4240.193,,,2020-11-11 18:59:28,2020-11-11 18:59:30,"1,750s",PASSED
+"navigateToUrl(""https://www.chanel.com/#languages"")",Chrome 86.0.4240.193,,,2020-11-11 18:59:30,2020-11-11 18:59:33,"3,052s",PASSED
+maximizeWindow(),Chrome 86.0.4240.193,,,2020-11-11 18:59:33,2020-11-11 18:59:33,"0,211s",PASSED
+"click(findTestObject(""Object Repository/ChanelOR/Page_CHANEL Official Website/button_EUROPE""))",Chrome 86.0.4240.193,,,2020-11-11 18:59:33,2020-11-11 18:59:34,"0,583s",PASSED
+"click(findTestObject(""Object Repository/ChanelOR/Page_CHANEL Official Website/a_france""))",Chrome 86.0.4240.193,,,2020-11-11 18:59:34,2020-11-11 18:59:37,"2,986s",PASSED
+"click(findTestObject(""Object Repository/ChanelOR/Page_CHANEL Site Officiel  Mode, Parfum, Be_976de9/svg_Rechercher_icon is-large  is-account""))",Chrome 86.0.4240.193,,,2020-11-11 18:59:37,2020-11-11 18:59:41,"4,027s",PASSED
+"click(findTestObject(""ChanelOR/Page_CHANEL Official Website/Page_CHANEL Site Officiel  Mode, Parfum, Beaut, Horlogerie, Joaillerie  CHANEL/button_Autoriser tous les cookies""))",Chrome 86.0.4240.193,,,2020-11-11 18:59:41,2020-11-11 18:59:43,"2,062s",PASSED
+"click(findTestObject(""Object Repository/ChanelOR/Page_Crer un compte  CHANEL/a_Connexion""))",Chrome 86.0.4240.193,,,2020-11-11 18:59:43,2020-11-11 18:59:45,"2,471s",PASSED
+"setText(findTestObject(""Object Repository/ChanelOR/Page_Connexion  CHANEL/input_e-mail_username""), ""trrr@gmail.com"")",Chrome 86.0.4240.193,,,2020-11-11 18:59:45,2020-11-11 18:59:46,"1,183s",PASSED
+"click(findTestObject(""ChanelOR/Page_Connexion  CHANEL/label_Mot de passe""))",Chrome 86.0.4240.193,,,2020-11-11 18:59:46,2020-11-11 18:59:47,"0,628s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/ChanelOR/Page_Connexion  CHANEL/input_Mot de passe_password""), ""RigbBhfdqOD+04WBHw5iKw=="")",Chrome 86.0.4240.193,,,2020-11-11 18:59:47,2020-11-11 18:59:48,"0,494s",PASSED
+"click(findTestObject(""Object Repository/ChanelOR/Page_Connexion  CHANEL/span_Connexion""))",Chrome 86.0.4240.193,,,2020-11-11 18:59:48,2020-11-11 18:59:48,"0,372s",PASSED
+"verifyElementText(findTestObject(""Object Repository/ChanelOR/Page_Connexion  CHANEL/p_Votre adresse e-mail ou mot de passe sont_da6aea""), ""Votre adresse e-mail ou mot de passe sont incorrects. Veuillez réessayer ou réinitialiser votre mot de passe."")",Chrome 86.0.4240.193,,,2020-11-11 18:59:48,2020-11-11 18:59:50,"1,804s",FAILED

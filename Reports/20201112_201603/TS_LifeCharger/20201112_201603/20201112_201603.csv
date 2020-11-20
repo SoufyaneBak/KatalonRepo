@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_LifeCharger,Chrome 86.0.4240.198,,,2020-11-12 20:16:07,2020-11-12 20:16:28,"21,235s",ERROR
+,,,,,,,
+Test Cases/TC_LifeCharger,Chrome 86.0.4240.198,This TC aims to test lifecharger website,,2020-11-12 20:16:07,2020-11-12 20:16:19,"11,526s",ERROR
+"openBrowser(""https://lifecharger.org"")",Chrome 86.0.4240.198,,,2020-11-12 20:16:08,2020-11-12 20:16:16,"8,566s",PASSED
+"click(findTestObject(""Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this""))",Chrome 86.0.4240.198,,,2020-11-12 20:16:16,2020-11-12 20:16:19,"2,644s",PASSED
+"setText(findTestObject(""Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/input_Search for_s""), getTestData(""myData"").getValue(1, 1))",Chrome 86.0.4240.198,,,2020-11-12 20:16:19,2020-11-12 20:16:19,"0,040s",PASSED
+,,,,,,,
+Test Cases/TC_LifeCharger,Chrome 86.0.4240.198,This TC aims to test lifecharger website,,2020-11-12 20:16:19,2020-11-12 20:16:28,"9,419s",ERROR
+"openBrowser(""https://lifecharger.org"")",Chrome 86.0.4240.198,,,2020-11-12 20:16:19,2020-11-12 20:16:26,"6,915s",PASSED
+"click(findTestObject(""Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this""))",Chrome 86.0.4240.198,,,2020-11-12 20:16:26,2020-11-12 20:16:28,"2,448s",PASSED
+"setText(findTestObject(""Object Repository/LifeChargerOR/Page_Life Charger   a new beginning/input_Search for_s""), getTestData(""myData"").getValue(1, 1))",Chrome 86.0.4240.198,,,2020-11-12 20:16:28,2020-11-12 20:16:28,"0,030s",PASSED

@@ -1,0 +1,8 @@
+1
+00:00:00,209 --> 00:00:00,213
+1. runFeatureFile("Include/features/test.feature")
+
+2
+00:00:00,227 --> 00:00:00,229
+5. runWithCucumberRunner(testRunner.TestRunner)
+

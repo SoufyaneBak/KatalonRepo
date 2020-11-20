@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Login,Chrome 86.0.4240.198,,,2020-11-18 12:27:50,2020-11-18 12:28:18,"28,692s",PASSED
+,,,,,,,
+Test Cases/TC_Login,Chrome 86.0.4240.198,,,2020-11-18 12:27:50,2020-11-18 12:28:18,"28,490s",PASSED
+"runFeatureFile(""Include/features/test.feature"")",Chrome 86.0.4240.198,,,2020-11-18 12:27:50,2020-11-18 12:27:50,"0,016s",NOT_RUN
+runWithCucumberRunner(testRunner.TestRunner),Chrome 86.0.4240.198,,,2020-11-18 12:27:50,2020-11-18 12:28:16,"25,785s",PASSED
+Video,Chrome 86.0.4240.198,,,2020-11-18 12:28:18,2020-11-18 12:28:18,"0,001s",PASSED

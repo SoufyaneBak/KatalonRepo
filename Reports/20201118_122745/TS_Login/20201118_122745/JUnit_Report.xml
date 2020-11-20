@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login" time="29.089" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Login" tests="1" failures="0" errors="0" time="29.089" timestamp="2020-11-18 12:27:50" hostname="pro - mbp-de-pro" id="Test Suites/TS_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/pro/git/KatalonRepo/Reports/20201118_122745/TS_Login/20201118_122745"/>
+         <property name="logFiles" value="/Users/pro/git/KatalonRepo/Reports/20201118_122745/TS_Login/20201118_122745/execution0.log"/>
+         <property name="attachments" value="/Users/pro/git/KatalonRepo/Reports/20201118_122745/TS_Login/20201118_122745/videos/test_1.avi"/>
+         <property name="hostName" value="pro - mbp-de-pro"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Chrome 86.0.4240.198"/>
+         <property name="hostAddress" value="192.168.1.37"/>
+         <property name="sessionId" value="d70d7cde682c08e92fded10609725b51"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" time="28.49" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2020-11-18 12:27:50 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2020-11-18 12:27:50 - [TEST_STEP][NOT_RUN] - runFeatureFile("Include/features/test.feature"): NOT_RUN: runFeatureFile("Include/features/test.feature")
+
+2020-11-18 12:27:50 - [MESSAGE][NOT_RUN] - NOT_RUN: runFeatureFile("Include/features/test.feature")
+
+2020-11-18 12:27:50 - [TEST_STEP][PASSED] - runWithCucumberRunner(testRunner.TestRunner): Run with 'testRunner.TestRunner' was passed
+
+2020-11-18 12:27:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-11-18 12:27:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-18 12:27:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-11-18 12:28:06 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2020-11-18 12:28:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMOR/Page_OrangeHRM/span_Username' is clicked on
+
+2020-11-18 12:28:07 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/OrangeHRMOR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2020-11-18 12:28:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OrangeHRMOR/Page_OrangeHRM/input_Username_txtPassword'
+
+2020-11-18 12:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRMOR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2020-11-18 12:28:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-11-18 12:28:16 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRMOR/Page_OrangeHRM/b_Dashboard' is present
+
+2020-11-18 12:28:16 - [MESSAGE][PASSED] - Browser is closed
+
+2020-11-18 12:28:16 - [MESSAGE][PASSED] - Run with 'testRunner.TestRunner' was passed
+
+2020-11-18 12:28:18 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC_Login' .
+
+2020-11-18 12:28:18 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC_Login' .
+[[ATTACHMENT|/Users/pro/git/KatalonRepo/Reports/20201118_122745/TS_Login/20201118_122745/videos/test_1.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-18 12:27:50 - [TEST_SUITE][PASSED] - TS_Login: Test Cases/TC_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

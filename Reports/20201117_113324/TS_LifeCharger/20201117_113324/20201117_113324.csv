@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_LifeCharger,,,,2020-11-17 11:33:29,2020-11-17 11:33:30,"0,665s",ERROR
+,,,,,,,
+Test Cases/TC_LifeCharger,,This TC aims to test lifecharger website,,2020-11-17 11:33:30,2020-11-17 11:33:30,"0,250s",ERROR
+,,,,,,,
+Test Cases/TC_LifeCharger,,This TC aims to test lifecharger website,,2020-11-17 11:33:30,2020-11-17 11:33:30,"0,120s",ERROR

@@ -6,6 +6,7 @@
    <UUID>22de3eed-d8d9-4a87-afce-9b4ece88ed88</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/pro/git/KatalonRepo/KatalonRepo.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
